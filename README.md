@@ -370,9 +370,9 @@ like this:
 
 Thus, we created three objects that correspond to our RFID tags. Note, that we
 only needed to provide an identifier to each tag and Sails.js automatically
-made sure the objects receive additional fields, such as id corresponding to
-the MongoDB _id and createdAt / updatedAt timestamps, similar to the ones Rails
-provides with its
+made sure the objects receive additional fields, such as `id` corresponding to
+the MongoDB `_id` and `createdAt` / `updatedAt` timestamps, similar to the ones
+Rails provides with its
 [Active Record](http://guides.rubyonrails.org/active_record_querying.html).
 Let's create other objects we need in the same manner:
 
